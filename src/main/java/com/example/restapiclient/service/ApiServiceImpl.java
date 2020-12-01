@@ -15,7 +15,7 @@ import java.util.List;
 @Service
 public class ApiServiceImpl implements ApiService {
 
-    final String API_ROOT = "http://localhost:9191/";
+    final String API_ROOT = "http://34.204.181.55:9191/";
     RestTemplate restTemplate = new RestTemplate();
     @Override
     public List<String> getProducts() {
